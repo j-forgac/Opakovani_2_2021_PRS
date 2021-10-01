@@ -6,13 +6,13 @@ public class Bankovky2 {
 		if(cash%2 == 1){
 			cash -= 5;
 			c++;
-			muneh = new int[]{50, 20, 10, 2};
 		}
 		while (cash > 0) {
 			int x = 0;
 			while (cash < muneh[x]) {
 				x++;
 			}
+			System.out.println(cash + " : " + c + " / " + muneh[x]);
 			cash -= muneh[x];
 			c++;
 		}
