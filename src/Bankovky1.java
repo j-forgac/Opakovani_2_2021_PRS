@@ -8,6 +8,7 @@ public class Bankovky1 {
 			while (cash < muneh[x]) {
 				x++;
 			}
+			System.out.println(cash + " : " + c + " / " + muneh[x]);
 			cash -= muneh[x];
 			c++;
 		}
