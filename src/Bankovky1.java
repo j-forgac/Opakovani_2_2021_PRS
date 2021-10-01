@@ -20,7 +20,6 @@ public class Bankovky1 {
 				}
 				System.out.println(cash + " - " + coins[x]);
 				cash -= coins[x];
-				pB++;
 				c++;
 			}
 		}
